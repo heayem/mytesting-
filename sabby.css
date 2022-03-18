@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+}
+.top-width{
+    width: 100%;
+    float: left;
+    background-color: black;
+    
+}
+.top-logo{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.logo{
+   
+    float: left;
+    width: 200px;
+}
+.logo img{
+    height: 70px;
+    float: left;
+    
+}
+.top-ads{
+    width: 1200px;
+}
+.top-ads img{
+    height: 70px;
+    float: right;
+}
+
+
+
+.top-width-menu{
+    
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    background-color: red;
+
+}
+.top-menu{
+    width: 1240px;
+    margin: auto;
+   
+}
+.top-menu ul{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.top-menu ul li{
+    float: left;
+
+}
+.top-menu ul li a{
+
+    display: block;
+    margin: 0px 20px;
+    padding: 10px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(197, 195, 195);
+    font-size: 22px;
+}
+.top-menu ul li a:hover{
+    transition: 0.8s;
+    color: aliceblue;
+    
+}
+.top-menu ul li a img{
+    height: 30px;
+    float: left;
+}
+.container{
+    max-width: 1200px;
+    height:800px;
+    margin: auto;   
+}
+.left-ads{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+.left-ads img {
+    width: 100%;
+    height: 100%;
+}
+.itembox1{
+    
+    float: left;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.itembox1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.itembox2{
+    float: left;
+    width: 390px;
+    height: 300px;
+    position: relative;
+}
+.itembox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: large;
+    overflow: hidden;
+    height: 20%;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+    
+}
+.title:hover{
+ 
+    transition: 0.9s;
+    color: red;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+}
+.coption{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    -webkit-clip-path: polygon(71% 0, 100% 22%, 100% 100%, 0 100%, 0 0);
+clip-path: polygon(71% 0, 100% 22%, 100% 100%, 0 100%, 0 0);
+}
+
+
+
+/* container2 */
+ 
+.container2 {
+    
+        max-width: 1200px;
+        height:1200px;
+        margin: auto;
+        background-color: aliceblue;
+    
+}
+
+
+
+
+
